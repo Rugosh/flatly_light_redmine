@@ -2,12 +2,12 @@
     border: 1px solid #2d4254;
     background-color: #b90748;
 }
-.lost_password a, a:link, a:visited {
+#login-form .lost_password a, a:link, a:visited {
 color: #dddddd;
 text-decoration: none;
 
 }
-.lost_password a:hover, a:active {
+#login-form .lost_password a:hover, a:active {
 color: #dddddd;
 text-decoration: underline;
 }
