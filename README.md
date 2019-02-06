@@ -1,5 +1,6 @@
 # Flatly light redmine theme #
 Modern and readability theme for Redmine.
+With some color changes for our usecase.
 
 ## Installation
 

@@ -12,6 +12,7 @@
 @import url(redminebacklogs.css);
 @import url(activity.css);
 @import url(projects.css);
+@import url(login.css);
 
 html{
   overflow-x: hidden;
@@ -31,8 +32,20 @@ h1, h2, h3, h4 {
   margin: 0 0 10px 0;
 }
 
+a, a:link, a:visited {
+  color: #b90748;
+  text-decoration: none;
+ }
+ a:hover, a:active {
+  color: #b90748;
+  text-decoration: underline;
+ }
+ #content h1, h2, h3, h4 {
+  color: #b90748;
+ }
+
 h1:first-letter{
-  text-transform: capitalize;
+  text-transform: none;
 }
 input:focus {
   outline-width: 0;
@@ -50,14 +63,14 @@ input:focus {
   text-transform: uppercase;
   border-right: 2px solid #eeeff3;
   padding: 0;
-  background-color: #354051;
+  background-color: #555;
   line-height: 40px;
 }
 
 #top-menu a {
-  color: #a0abbe;
+  color: #fff;
   margin-right: 0px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #top-menu a:hover {
@@ -238,10 +251,10 @@ label[for="q"]{
 }
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 3px solid #b90748;
 }
 #main-menu li a:hover {
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 3px solid #b90748;
 }
 #main-menu li a {
   color: #848f9f;
@@ -253,7 +266,7 @@ label[for="q"]{
 #main-menu li a:hover {
   background: none;
   color: #000;
-  border-bottom: 3px solid #40aff8;
+  border-bottom: 3px solid #b90748;
 }
 #main-menu li a.new-object {
   background-color: transparent;
@@ -275,7 +288,7 @@ label[for="q"]{
 
 #content{
   width: 81%;
-  background-color: #ebf1f5;
+  background-color: #dddddd;
   padding-left: 20px;
 }
 

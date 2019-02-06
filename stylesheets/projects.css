@@ -4,6 +4,10 @@ ul.projects li.root {
   border: 1px solid #d7d7d7;
 }
 
+.project .root .leaf a, a:link, a:visited {
+  color: #b90748;
+}
+
 #projects-index {
   column-count: auto;
   column-width: auto;
