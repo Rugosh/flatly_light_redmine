@@ -1,14 +1,14 @@
 #login-form {
     border: 1px solid #2d4254;
-    background-color: #b90748;
+    background-color: #FFFFFF;
 }
 #login-form .lost_password a, a:link, a:visited {
-color: #dddddd;
+color: #FFFFFF;
 text-decoration: none;
 
 }
 #login-form .lost_password a:hover, a:active {
-color: #dddddd;
+color: #FFFFFF;
 text-decoration: underline;
 }
 .burger .one, burger .two, burger .three {

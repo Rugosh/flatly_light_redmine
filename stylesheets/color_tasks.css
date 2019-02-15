@@ -24,9 +24,9 @@ tr.odd.priority-2 td, tr.even.priority-2 td { border-color: #fff; }
 
 /* resolved */
 tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { }
-tr.odd.priority-3 { background: #dff0d8; }
+tr.odd.priority-3 { background: #FFFFFF; }
 tr.even.priority-3, table.list tbody tr.even.priority-3:hover { }
-tr.even.priority-3 { background: #dff0d8; }
+tr.even.priority-3 { background: #CCCCCC; }
 tr.priority-3 a { }
 tr.odd.priority-3 td, tr.even.priority-3 td { border-color:#dff0d8; }
 

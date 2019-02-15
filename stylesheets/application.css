@@ -295,9 +295,9 @@ label[for="q"]{
 /*==========FALSH NOTICE======*/
 div.flash.notice{
   border: none;
-  border-left: 20px solid #1ABB9B;
+  border-left: 20px solid #999999;
   background: none;
-  background-color: rgba(0,255,0,0.1);
+  background-color: #cccccc;
   padding-left: 10px;
   border-radius: 4px;
 }
