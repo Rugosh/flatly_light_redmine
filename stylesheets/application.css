@@ -152,6 +152,7 @@ label[for="q"]{
   padding-left: 160px;
   background-size: contain;
   height: 32px;
+  overflow: unset;
 }
 #header h1 a{
   color: #4e515e;
