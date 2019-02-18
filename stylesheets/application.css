@@ -147,7 +147,11 @@ label[for="q"]{
 
 #header h1{
   color: #4e515e;
-  margin-left: -40px;
+  background-image: url('../images/redmine_logo.png');
+  background-repeat: no-repeat;
+  padding-left: 160px;
+  background-size: contain;
+  height: 32px;
 }
 #header h1 a{
   color: #4e515e;
@@ -384,16 +388,7 @@ select {
 tr.time-entry {
   white-space: normal !important;
 }
-/*=========== LOGO ============*/
-.redmine-logo{
-  margin: auto;
-  width: 200px;
-  height: 70px;
-  background-image: url('../images/redmine_logo.png');
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
+
 /*=========== RedmineCRM ======*/
 /* TODO: Find a way rewrite it */
 select[onchange="if (this.value != '') { window.location = this.value; }"]{
