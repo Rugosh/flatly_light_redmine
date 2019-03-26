@@ -80,7 +80,7 @@
 
   $(window).load(function() {
     $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
-    $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
+    $( 'input[name$="q"]' ).attr( 'placeholder','Suchtext hier eingeben' );
     if (activeStaticSidebar) {
       $( "#wrapper3" ).css( "margin-left", "215px" );
       $( "#quick-search" ).css( "left", "200px" );
